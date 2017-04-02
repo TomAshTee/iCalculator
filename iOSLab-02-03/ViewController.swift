@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         case Subtract = "-"
         case Add = "+"
         case Empty = "Empty"
-        case Clear = "Clear"
     }
     
     var currentOperation = Operation.Empty
@@ -35,7 +34,6 @@ class ViewController: UIViewController {
  
     @IBAction func numberPressed(_ sender: UIButton) {
         runningNumber += "\(sender.currentTitle!)"
-        print(sender.currentTitle!)
         outputLbl.text = runningNumber
     }
     
@@ -56,7 +54,10 @@ class ViewController: UIViewController {
         processOperation(operation: .Multiply)
     }
     @IBAction func onClearPressed(_ sender: Any) {
-        processOperation(operation: .Clear)
+        result = ""
+        rightValStr = ""
+        leftValStr = "0"
+        runningNumber = ""
         outputLbl.text = "0"
     }
     
@@ -77,10 +78,6 @@ class ViewController: UIViewController {
                     result = "\(Double(leftValStr)! - Double(rightValStr)!)"
                 } else if currentOperation == Operation.Add {
                     result = "\(Double(leftValStr)! + Double(rightValStr)!)"
-                } else if currentOperation == Operation.Clear {
-                    result = "0"
-                    runningNumber = "0"
-                    rightValStr = "0"
                 }
                 
                 leftValStr = result
