@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F15CC3DE1E90E231000EE48C /* iOSLab-02-03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSLab-02-03.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15CC3DE1E90E231000EE48C /* iCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15CC3E11E90E231000EE48C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15CC3E31E90E231000EE48C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F15CC3E61E90E231000EE48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		F15CC3D51E90E231000EE48C = {
 			isa = PBXGroup;
 			children = (
-				F15CC3E01E90E231000EE48C /* iOSLab-02-03 */,
+				F15CC3E01E90E231000EE48C /* iCalculatro */,
 				F15CC3DF1E90E231000EE48C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		F15CC3DF1E90E231000EE48C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F15CC3DE1E90E231000EE48C /* iOSLab-02-03.app */,
+				F15CC3DE1E90E231000EE48C /* iCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F15CC3E01E90E231000EE48C /* iOSLab-02-03 */ = {
+		F15CC3E01E90E231000EE48C /* iCalculatro */ = {
 			isa = PBXGroup;
 			children = (
 				F15CC3E11E90E231000EE48C /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				F15CC3EA1E90E231000EE48C /* LaunchScreen.storyboard */,
 				F15CC3ED1E90E231000EE48C /* Info.plist */,
 			);
+			name = iCalculatro;
 			path = "iOSLab-02-03";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F15CC3DD1E90E231000EE48C /* iOSLab-02-03 */ = {
+		F15CC3DD1E90E231000EE48C /* iCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F15CC3F01E90E231000EE48C /* Build configuration list for PBXNativeTarget "iOSLab-02-03" */;
+			buildConfigurationList = F15CC3F01E90E231000EE48C /* Build configuration list for PBXNativeTarget "iCalculator" */;
 			buildPhases = (
 				F15CC3DA1E90E231000EE48C /* Sources */,
 				F15CC3DB1E90E231000EE48C /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOSLab-02-03";
+			name = iCalculator;
 			productName = "iOSLab-02-03";
-			productReference = F15CC3DE1E90E231000EE48C /* iOSLab-02-03.app */;
+			productReference = F15CC3DE1E90E231000EE48C /* iCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F15CC3D91E90E231000EE48C /* Build configuration list for PBXProject "iOSLab-02-03" */;
+			buildConfigurationList = F15CC3D91E90E231000EE48C /* Build configuration list for PBXProject "iCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F15CC3DD1E90E231000EE48C /* iOSLab-02-03 */,
+				F15CC3DD1E90E231000EE48C /* iCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F15CC3D91E90E231000EE48C /* Build configuration list for PBXProject "iOSLab-02-03" */ = {
+		F15CC3D91E90E231000EE48C /* Build configuration list for PBXProject "iCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F15CC3EE1E90E231000EE48C /* Debug */,
@@ -295,13 +296,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F15CC3F01E90E231000EE48C /* Build configuration list for PBXNativeTarget "iOSLab-02-03" */ = {
+		F15CC3F01E90E231000EE48C /* Build configuration list for PBXNativeTarget "iCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F15CC3F11E90E231000EE48C /* Debug */,
 				F15CC3F21E90E231000EE48C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
